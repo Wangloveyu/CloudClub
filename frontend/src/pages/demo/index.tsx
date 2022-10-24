@@ -34,7 +34,7 @@ const DemoPage = () => {
         },
         (err: any, res: any) => {
           if (!err) {
-            message.success(`你的纪念品tokenId是${res.returnValues.Tokens}`)
+            // message.success(`你的纪念品tokenId是${res.returnValues.Tokens}`)
             getUserInformation()
           }
           console.log(err, res)
@@ -56,7 +56,6 @@ const DemoPage = () => {
     }
     return () => {
       clearInterval(timer)
-      web3.eth.clearSubscriptions()
     }
   }, [myAccount])
 
