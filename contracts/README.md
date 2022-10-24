@@ -1,10 +1,11 @@
-# StudentSocietyDAO Contract
+# CloudClub
 
 Try running some of the following tasks:
 
 ```shell
 # run test script
 npx hardhat test
+
 # run deploy script
 npx hardhat run scripts/deploy.ts
 
